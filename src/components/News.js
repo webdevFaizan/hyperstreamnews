@@ -48,7 +48,7 @@ export class News extends Component{
       pageNo : 1
     })
     this.props.progressBar(99);
-    // console.log("Component : "+this.state.pageNo+"  "+ this.state.totalResults +"  "+ this.state.articlesOnOnePage+"  "+ this.state.maximumPages);    
+    // console.log("Cmponent : "+this.state.pageNo+"  "+ this.state.totalResults +"  "+ this.state.articlesOnOnePage+"  "+ this.state.maximumPages);    
   }
 
     // handleNextClick= async ()=>{    //This function is inside a class, so we do not need to create this function without the help of function keyword.
